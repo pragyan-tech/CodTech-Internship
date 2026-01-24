@@ -18,5 +18,37 @@ A RESTful API built with **Express.js** and **MySQL** that handles user authenti
 
 1. **Clone the Repo:**
    ```bash
-   git clone [https://github.com/pragyan-tech/CodTech-Internship.git](https://github.com/YOUR_USERNAME/CodTech-Internship-Portfolio.git)
+   git clone https://github.com/pragyan-tech/CodTech-Internship.git
    cd CodTech-Internship/Task1-BlogAPI
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+
+3. **Database Setup:**
+   - Create a database named `blog_db` in MySQL.
+   - Run the SQL commands found in `database_schema.sql`.
+
+4. **Configuration:**
+   - Create a `.env` file in the root folder.
+   - Add your database credentials:
+     ```env
+     DB_HOST=localhost
+     DB_USER=root
+     DB_PASS=your_password
+     DB_NAME=blog_db
+     JWT_SECRET=secret_key
+     ```
+
+5. **Start Server:**
+   ```bash
+   npm start
+
+## 🧪 API Endpoints
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| POST | `/auth/register` | Register a new user |
+| POST | `/auth/login` | Login and receive Token |
+| GET | `/blogs` | Get all blogs |
+| POST | `/blogs` | Create a blog (Requires Token) |
+| POST | `/blogs/:id/comments` | Add comment (Requires Token) |
