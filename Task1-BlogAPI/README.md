@@ -18,5 +18,5 @@ A RESTful API built with **Express.js** and **MySQL** that handles user authenti
 
 1. **Clone the Repo:**
    ```bash
-   git clone <YOUR_GITHUB_REPO_LINK_HERE>
-   cd blog-backend-api
+   git clone [https://github.com/pragyan-tech/CodTech-Internship.git](https://github.com/YOUR_USERNAME/CodTech-Internship-Portfolio.git)
+   cd CodTech-Internship/Task1-BlogAPI
