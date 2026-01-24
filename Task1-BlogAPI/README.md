@@ -1,4 +1,4 @@
-# Blog Backend System (Internship Task)
+# Blog Backend System
 
 A RESTful API built with **Express.js** and **MySQL** that handles user authentication, blog management, and commenting systems.
 
