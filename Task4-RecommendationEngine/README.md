@@ -25,10 +25,10 @@ A Content-Based Recommendation System built with **Python**, **Flask**, and **Sc
    pip install -r requirements.txt
 
  3. **Start the Server:**
-   ```bash
-   python app.py
+    ```bash
+    python app.py
 
- ## 🧪 API Endpoints
+## 🧪 API Endpoints
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
 | GET | `/` | Health Check |
