@@ -22,4 +22,4 @@ Welcome to my internship repository for **CodTech IT Solutions**. This collectio
 - **Tools:** Git, Postman, VS Code
 
 ## 📜 License
-This project is developed for academic and internship purposes at CodTech IT Solutions.
+This project is developed for academic and internship purposes at CodTech IT Solutions.  
